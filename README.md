@@ -1,6 +1,6 @@
 # crawler_for_unsplash
 
-### Use BeautifulSoup to download images
+### Use BeautifulSoup & Selenium to download images
 
 Image Source : [unsplash](https://unsplash.com/ "游標顯示")
 
