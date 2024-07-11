@@ -36,10 +36,10 @@ Image Source : [unsplash](https://unsplash.com/)
 >>1. input_image variable is search keyword
 >><img src="images_for_README/img3.png" />
 >>
->>2. img class is different, you should find yours.
+>>2. button class is different, you should find yours.
 >><img src="images_for_README/img4.png" />
 >>
->>3. img class is different, you should find yours.
+>>3. sliding window setup, can change number of strolls.
 >><img src="images_for_README/img5.png" />
 >>
 >>4. img class is different, you should find yours.
