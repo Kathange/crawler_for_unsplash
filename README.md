@@ -20,4 +20,4 @@ Image Source : [unsplash](https://unsplash.com/)
 >\
 >But in crawler_small_img.py, only up to 20 pictures can be downloaded because there is a button called "Load more", you can see more pictures after clicking this button.\
 >\
->Except, after click the button, only got 40 pictures. If you want to get more pictures, just add sliding window function.
+>Moreover, after click the button, only got 40 pictures. If you want to get more pictures, just add sliding window function.
