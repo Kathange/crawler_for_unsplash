@@ -30,3 +30,18 @@ Image Source : [unsplash](https://unsplash.com/)
 >But in crawler_small_img.py, only up to 20 pictures can be downloaded because there is a button called "Load more", you can see more pictures after clicking this button.\
 >\
 >Besides, after click the button, only got 40 pictures. If you want to get more pictures, just add sliding window function.
+>>\
+>>Things that need to be adjusted before each execution of the program.
+>>
+>>1. input_image variable is search keyword
+>><img src="images_for_README/img3.png" />
+>>
+>>2. img class is different, you should find yours.
+>><img src="images_for_README/img4.png" />
+>>
+>>3. img class is different, you should find yours.
+>><img src="images_for_README/img5.png" />
+>>
+>>4. img class is different, you should find yours.
+>><img src="images_for_README/img6.png" />
+
