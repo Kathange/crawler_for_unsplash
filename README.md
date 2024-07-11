@@ -16,10 +16,10 @@ Image Source : [unsplash](https://unsplash.com/)
 >>\
 >>Things that need to be adjusted before each execution of the program.
 >>\
->>1. input_image variable is search keyword\
+>>1. input_image variable is search keyword
 >><img src="images_for_README/img1.png" />
 >>\
->>2. img class is different, you should find yours.\
+>>2. img class is different, you should find yours.
 >><img src="images_for_README/img2.png" />
 
 
