@@ -9,7 +9,7 @@ import time
 
 
 # 輸入搜尋關鍵字
-input_image = "outfits"
+input_image = "tshirt"
 
 # 初始化 Selenium 瀏覽器
 options = webdriver.ChromeOptions()
@@ -26,19 +26,32 @@ try:
     element = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.CSS_SELECTOR,".LaaWe.Qzy6N.ogSND.ZR5jm.cs1e4.ibgtd.v2BPu.mP89P.szXtT.wACgf.ZR5jm"))
     )
+    time.sleep(2)   # 點擊後給一些加載時間
 
     # 如果需要點擊的按鈕是動態生成的，使用 Selenium 找到並點擊它
     button = driver.find_element(By.CSS_SELECTOR, '.LaaWe.Qzy6N.ogSND.ZR5jm.cs1e4.ibgtd.v2BPu.mP89P.szXtT.wACgf.ZR5jm')
     button.click()
-
     time.sleep(2)   # 點擊後給一些加載時間
+
+    # 滑動視窗
+    prev_height = -1
+    max_scrolls = 10    # 滑動 10 次
+    scroll_count = 0
+    while scroll_count < max_scrolls:
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)  # 滑動後給一些加載時間
+        new_height = driver.execute_script("return document.body.scrollHeight")
+        if new_height == prev_height:
+            break
+        prev_height = new_height
+        scroll_count += 1
 
     # 獲取更新後的網頁內容
     updated_html = driver.page_source
     soup = BeautifulSoup(updated_html, 'html.parser')
 
     # 找到所有圖片元素
-    results = soup.find_all("img", {"class": "ApbSI z1piP vkrMA"}, limit=3)
+    results = soup.find_all("img", {"class": "ApbSI z1piP vkrMA"}, limit=100)
     image_links = [result.get("src") for result in results]  # 取得圖片來源連結
 
     # 下載圖片並存儲到本地資料夾
