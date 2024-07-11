@@ -12,7 +12,11 @@ Image Source : [unsplash](https://unsplash.com/)
 >\
 >This program is more simple and easier to understand.\
 >\
->Just follow the reference to run the program.
+>Just follow the reference to run the program.\
+>\
+>Things that need to be adjusted before each execution of the program.\
+>\
+><img />
 
 **crawler_large_img.py**
 
