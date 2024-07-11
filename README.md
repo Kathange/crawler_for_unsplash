@@ -14,9 +14,10 @@ Image Source : [unsplash](https://unsplash.com/)
 >\
 >Just follow the reference to run the program.\
 >\
->Things that need to be adjusted before each execution of the program.\
->\
-><img />
+>>Things that need to be adjusted before each execution of the program.\
+>>\
+<img src="./image_for_README/img1" />
+
 
 **crawler_large_img.py**
 
