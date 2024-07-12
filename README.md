@@ -9,7 +9,7 @@ Image Source : [unsplash](https://unsplash.com/)
 I'm not sure if you need to use chromedriver. Just in case, you can download.
 1. Check your Chrome Version\
    \
-   ++settings++ -> ++about chrome++ -> ++your chrome version++\
+   settings -> about chrome -> your chrome version\
    <img src="images_for_README/img7.png" style="width:400px" />
 2. [Chrome Driver Download](https://developer.chrome.com/docs/chromedriver/downloads?hl=zh-tw)\
    \
