@@ -2,11 +2,17 @@
 
 ### Use BeautifulSoup & Selenium to download images
 
+Image Source : [unsplash](https://unsplash.com/)
+
 ```pip install beautifulsoup4 selenium requests```
 
 >I'm not sure if you need to use chromedriver. Just in case, you can download.
+>1. Check your Chrome Version
+>settings -> about chrome -> your chrome version
+>2. [Chrome Driver Download](https://developer.chrome.com/docs/chromedriver/downloads?hl=zh-tw)
+>If you don't see a version here that works for you, go to [Chrome for Testing(CfT)](https://googlechromelabs.github.io/chrome-for-testing/)
+>3. After compressing the zip file, just put the exe file and the program in the same folder.
 
-Image Source : [unsplash](https://unsplash.com/)
 
 ---
 
