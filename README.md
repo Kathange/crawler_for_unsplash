@@ -11,8 +11,9 @@ Image Source : [unsplash](https://unsplash.com/)
 >settings -> about chrome -> your chrome version
 ><img src="images_for_README/img7.png" style="width:400px" />\
 >2. [Chrome Driver Download](https://developer.chrome.com/docs/chromedriver/downloads?hl=zh-tw)
+>\
 >If you don't see a version here that works for you, go to [Chrome for Testing(CfT)](https://googlechromelabs.github.io/chrome-for-testing/)
-><img src="images_for_README/img8.png" />\
+><img src="images_for_README/img8.png" />
 >3. After compressing the zip file, just put the exe file and the program in the same folder.
 
 
