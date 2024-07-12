@@ -21,7 +21,7 @@ I'm not sure if you need to use chromedriver. Just in case, you can download.
 
 ---
 
-***crawler_small_img.py***
+# crawler_small_img.py
 
 >crawler_small_img.py Reference : [Crawler Download Image](https://github.com/mikeku1116/python-image-downloader)\
 >\
@@ -38,7 +38,7 @@ I'm not sure if you need to use chromedriver. Just in case, you can download.
 >><img src="images_for_README/img2.png" />
 
 
-***crawler_large_img.py***
+# crawler_large_img.py
 
 >crawler_large_img.py is referenced from everywhere, so it has no reference.\
 >\
